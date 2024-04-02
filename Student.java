@@ -6,4 +6,9 @@ public class Student extends User {
         System.out.println("Called the Student Constructor");
     }
 
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        return super.getName() + " is a Student";
+    }
 }
